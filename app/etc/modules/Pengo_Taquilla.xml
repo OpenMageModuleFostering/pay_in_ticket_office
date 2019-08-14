@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+@author Pengo Stores
+@category Pengo
+@package Pengo_Taquilla
+-->
+<config>
+    <modules>
+        <Pengo_Taquilla>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Pengo_Taquilla>
+    </modules>
+</config>

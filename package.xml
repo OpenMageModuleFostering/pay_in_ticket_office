@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package>
+    <name>pay_in_ticket_office</name>
+    <version>0.1.1</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Allow your customers to buy a ticket and complete the payment at the Box Office or any other place</summary>
+    <description>This payment extension works like the native Check/Money Order module&#xD;
+&#xD;
+If your a store is already using the Check/Money order extension and you need another offline payment with different payment instructions or information this would just work excellent for you. &#xD;
+&#xD;
+When a customer uses this payment method the order is created in Magento with the status "Pending", so then the customer can print out their order confirmation and proceed to complete the payment at the Box Office or some other place that you can specify.&#xD;
+&#xD;
+This is a great exttension for stores selling tickets to events. So you can offer the service to your customers to buy a ticket and to complete the payment at the day of the event with a copy of their order confirmation. &#xD;
+&#xD;
+We all know that some % of the orders submitted with this payment method will never be completed. But at least you will have an idea of how many people have the intention to attend to the event.</description>
+    <notes>Bug fix: Extension configuration wasn't showing on the administration panel. Status: Resolved.&#xD;
+&#xD;
+Spanish translation update: We improve the transalation for the Spanis version.</notes>
+    <authors><author><name>Marcos Penhos</name><user>PengoStores</user><email>marcos@pengostores.com</email></author><author><name>Alberto Penhos</name><user>apz2000</user><email>alberto@pengostores.com</email></author><author><name>Victor Rodr&#xED;guez</name><user>nuvolari</user><email>victor@pengostores.com</email></author></authors>
+    <date>2012-05-18</date>
+    <time>18:13:11</time>
+    <contents><target name="magecommunity"><dir name="Pengo"><dir name="Taquilla"><dir name="Block"><dir name="Form"><file name="Taquilla.php" hash="c739849b371b7a0570f50577c192d17a"/></dir><file name="Form.php" hash="63ce3bb52547cdda3f7428b61c0208d5"/><dir name="Info"><file name="Taquilla.php" hash="e368f0e614aec99d7f510b34f0157555"/></dir></dir><dir name="Helper"><file name="Checkout.php" hash="94b6dc69229e24d99e1bf01fff58867f"/><file name="Data.php" hash="60541a98e4132a67fcfdad0f167c90cd"/><file name="Payment.php" hash="54ff55b222ce5d8684fb987353d555c3"/></dir><dir name="Model"><dir name="Method"><file name="Payment.php" hash="eef7221b0819456e055696bf8b14b05e"/></dir></dir><dir name="etc"><file name="config.xml" hash="cc502731feaafe7f872df8f5973da626"/><file name="system.xml" hash="2eb5d7cbf3562f308c5b91b496f4f17c"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="default"><dir name="default"><dir name="layout"><file name="taquilla.xml" hash="12465f7d45b4b2d8e59cfc8870fed31a"/></dir><dir name="template"><dir name="taquilla"><dir name="payment"><file name="form.phtml" hash="e28363bd5ca9cc3ceed50bb252e63906"/></dir></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Pengo_Taquilla.xml" hash="996a16e4d9c63f7661a067581bcb36a2"/></dir></target><target name="magelocale"><dir name="es_MX"><file name="Pengo_Taquilla.csv" hash="36159f0f5cc87284e667dba871e7dbf3"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

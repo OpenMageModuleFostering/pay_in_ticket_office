@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/pay_in_ticket_office",
+    "type": "magento-module",
+    "license": "OSL-v3.0",
+    "homepage": "",
+    "description": "Allow your customers to buy a ticket and complete the payment at the Box Office or any other place",
+    "authors": [
+    {
+        "name": "Marcos Penhos",
+        "email": "marcos@pengostores.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
